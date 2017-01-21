@@ -4,8 +4,8 @@ const crypto = require('crypto');
 
 const requestTokenRequestUrl = 'https://api.twitter.com/oauth/request_token';
 const callbackUrl = '';
-const consumer_key = 'MXxqab5sL5tVOjzl0mPxtvmMc';
-const consumer_secret = 'MppO1rruhryNBwyzAxeJri86s53K1R7rIErV0bYgRYZwxZBIOF';
+const consumer_key = YOUR_APP_CONSUMER_KEY;
+const consumer_secret = YOUR_APP_CONSUMER_SECRET;
 const keyOfSign = encodeURIComponent(consumer_secret) + "&";
 
 let params = {
